@@ -6,7 +6,9 @@ type Props = {
   title: string;
 };
 
-export default function Home({ title = 'React avançado'}: Props) {
+const foo = 'bar';
+
+export default function Home({ title = 'Teste'}: Props) {
   return (
     <div className={styles.container}>
       <Head>
